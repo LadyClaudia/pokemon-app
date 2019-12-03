@@ -4,8 +4,16 @@
 /dist
 /tmp
 /out-tsc
+package-lock.json
 # Only exists if Bazel was run
 /bazel-out
+
+# SystemJS
+src/**/*.js
+!src/systemjs.config.extras.js
+!src/systemjs.config.js
+!src/systemjs.config.server.js
+!src/systemjs-angular-loader.js
 
 # dependencies
 /node_modules
